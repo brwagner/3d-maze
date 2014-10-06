@@ -8,21 +8,21 @@ using UnityEngine;
  */ 
 public class RandomColor
 {
-	// Possible colors
-	private static Color[] colors =
-	{
-		Color.red,
-		Color.green,
-		Color.blue,
-		Color.magenta,
-		Color.cyan,
-		Color.yellow
-	};
+  // Possible colors
+  private static Color[] colors =
+  {
+    Color.red,
+    Color.green,
+    Color.blue,
+    Color.magenta,
+    Color.cyan,
+    Color.yellow
+  };
 
-	// Get a random color
-	public static Color GetColor ()
-	{
-		return colors [Random.Range (0, colors.Length)];
-	}
+  // Get a random color
+  public static Color GetColor ()
+  {
+    return colors [Random.Range (0, colors.Length)];
+  }
 }
 
